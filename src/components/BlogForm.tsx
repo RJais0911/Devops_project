@@ -63,7 +63,7 @@ const BlogForm = ({ onGenerate, isGenerating }: BlogFormProps) => {
           <Input
             id="title"
             name="title"
-            placeholder="Enter a title for your blog post"
+            placeholder="Enter a title"
             value={formData.title}
             onChange={handleChange}
             className="mt-1"

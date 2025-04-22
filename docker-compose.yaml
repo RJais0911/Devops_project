@@ -1,10 +1,12 @@
 version: "3.8"
 services:
   react-app:
+    environment:
+      - AUTH = false
     build:
       context: .
     ports:
-      - "8080:8080"
+      - "8081:8080"
     networks:
       - Blognetwork
 networks:
